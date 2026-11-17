@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#211a15">
+  <title>Five Months, One Love — The Museum of Our Little World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="museum">
+  <canvas id="scene" aria-label="3D museum environment"></canvas>
+
+  <section id="intro" class="screen">
+    <div class="frame">
+      <p class="eyebrow">A PRIVATE COLLECTION · EST. FIVE MONTHS AGO</p>
+      <h1>Five Months,<br><em>My langga</em></h1>
+      <div class="star">✦</div>
+      <h2>The Museum of Our Little World</h2>
+      <p>Our memories in our museum.</p>
+      <button id="enter">Enter the museum</button>
+      <small>PLEASE TAKE YOUR TIME · THE EXHIBITION IS YOURS</small>
+    </div>
+  </section>
+
+  <header id="hud" class="hidden">
+    <span class="brand">FMO L · PRIVATE EXHIBITION</span>
+    <div class="room-label"><b id="roomNo">THE FOYER</b><span>—</span><span id="roomName">Welcome</span></div>
+    <nav>
+      <button id="music">♫ Music</button>
+      <button id="help">Controls</button>
+    </nav>
+  </header>
+
+<aside id="musicPanel" class="panel hidden">
+    <button class="close" data-close="musicPanel" aria-label="Close">×</button>
+
+    <p class="eyebrow">THE SOUNDTRACK</p>
+
+    <h2>Die For You</h2>
+    <p>The Weeknd and Ariana Grande</p>
+
+    <iframe
+        title="Spotify Music Player"
+        src="https://open.spotify.com/embed/track/4JNdwEfqwFRiAeEISC8RU8?utm_source=generator&theme=0"
+        width="100%"
+        height="152"
+        frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
+
+    <small>Press play to listen to the soundtrack.</small>
+</aside>
+
+  <aside id="helpPanel" class="panel hidden">
+    <button class="close" data-close="helpPanel" aria-label="Close">×</button>
+    <p class="eyebrow">HOW TO EXPLORE</p>
+    <h2>Take a closer look</h2>
+    <p>Use WASD or the arrow keys to walk. Move the mouse to look around; no click or dragging is needed. Approach a pair of doors and press E, or use the on-screen button. On touch screens, use the directional pad.</p>
+  </aside>
+
+  <aside id="exhibit" class="panel exhibit hidden">
+    <button class="close" data-close="exhibit" aria-label="Close">×</button>
+    <p class="eyebrow" id="exhibitKicker">EXHIBIT</p>
+    <h2 id="exhibitTitle">A memory</h2>
+    <p id="exhibitText"></p>
+    <small>I love this photo, it reminds me of my thoughts with you.</small>
+  </aside>
+
+  <footer id="bottom" class="hidden">
+    <span id="hint">WASD / arrows to walk · Move mouse to look</span>
+    <div class="move-controls" aria-label="Movement controls">
+      <button class="move-key up" data-move="forward" aria-label="Move forward">▲</button>
+      <button class="move-key left" data-move="left" aria-label="Move left">◀</button>
+      <button class="move-key down" data-move="back" aria-label="Move backward">▼</button>
+      <button class="move-key right" data-move="right" aria-label="Move right">▶</button>
+    </div>
+  </footer>
+
+  <div id="doorPrompt" class="door-prompt hidden">
+    <span id="doorPromptText">Press E to open the doors</span>
+    <button id="doorAction">Open doors</button>
+  </div>
+
+  <div id="loading">PREPARING THE EXHIBITION…</div>
+</main>
+<script type="module" src="script.js"></script>
+<!-- CARTA EN PRIMER PLANO -->
+<div id="letterOverlay" class="letter-overlay">
+    <div class="letter-backdrop"></div>
+
+    <article class="letter-sheet">
+        <button id="closeLetter" class="letter-close" aria-label="Close letter">
+            ×
+        </button>
+
+        <p class="letter-eyebrow">A LITTLE MESSAGE FOR YOU</p>
+
+        <h1 id="letterOverlayTitle">A letter for you</h1>
+
+        <div class="letter-divider"></div>
+
+        <div id="letterOverlayText" class="letter-content"></div>
+
+        <p class="letter-signature">
+            With love, always.
+        </p>
+    </article>
+</div>
+</body>
+</html>
