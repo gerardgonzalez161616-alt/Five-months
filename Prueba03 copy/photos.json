@@ -1,0 +1,93 @@
+{
+  "photos": [
+    {
+      "file": "foto1.jpg",
+      "room": 1,
+      "wall": "left",
+      "z": -11.5,
+      "y": 2.5,
+      "width": 1.6,
+      "height": 1.9,
+      "title": "My favorite imagine moment",
+      "description": "🥹"
+    },
+    {
+      "file": "foto2.jpg",
+      "room": 2,
+      "wall": "right",
+      "z": -21,
+      "y": 2.5,
+      "width": 1.6,
+      "height": 1.9,
+      "title": "I'll never forget this day hehe",
+      "description": "Our best pic together. 😍"
+    },
+    {
+      "file": "foto3.jpg",
+      "room": 4,
+      "wall": "left",
+      "z": -42,
+      "y": 2.5,
+      "width": 1.6,
+      "height": 1.9,
+      "title": "I love mi wife so much 🥹",
+      "description": "Our favorite moments."
+    },
+    {
+      "file": "Lyn1.jpg",
+      "room": 1,
+      "slot": 1,
+      "title": "MY PRINCESS",
+      "description": "The girl most beautiful in the world"
+    },
+    {
+      "file": "Lyn2.jpg",
+      "room": 1,
+      "slot": 2,
+      "title": "MY MODEL",
+      "description": "I am your favorite admirer, I'll never stop looking at you. 😍aaaaaaaaaa"
+    },
+    {
+      "file": "Lyn3.jpg",
+      "room": 2,
+      "slot": 1,
+      "title": "MY FENCER OMGGGGGGG",
+      "description": "ME ENCANTAS!!! "
+    },
+    {
+      "file": "Lyn4.jpg",
+      "room": 3,
+      "slot": 1,
+      "title": "SO BEAUTIFUL AND PERFECT 😘",
+      "description": "Your beautiful eyes hipnotize me."
+    },
+    {
+      "file": "Lyn5.jpg",
+      "room": 3,
+      "slot": 2,
+      "title": "Are you a soda?",
+      "description": "Because you look soda-licious 😍"
+    },
+    {
+      "file": "Lyn6.jpg",
+      "room": 3,
+      "slot": 3,
+      "title": "Actually Shrek it's me",
+      "description": "I felt the kiss 🥰"
+    },
+    {
+      "file": "Lyn7.jpg",
+      "room": 3,
+      "slot": 4,
+      "title": "A Glimpse of Heaven",
+      "description": "If i could admire one view. it would always be YOU."
+    },
+    {
+      "file": "Lyn8.jpg",
+      "room": 3,
+      "slot": 5,
+      "title": "A face to treasure",
+      "description": "Your face, in every univers, will always be my favorite."
+    }
+  ]
+}
